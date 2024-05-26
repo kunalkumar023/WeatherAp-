@@ -1,0 +1,66 @@
+.forecast{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 75vh;
+    padding-left: 3%;
+
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:200px ;
+}
+
+.weather-info{
+    border-radius: 20px;
+    background-color: #6c757d;
+    padding-left: 10%;
+    margin-top: 20px ;
+    width: 37%;
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-info img{
+    width: 100px;
+    height: 100px;
+}
+
+.hrday{
+    display: block;
+    width: 48%;
+    margin-left: 5%;
+    margin-top: 20px ;
+}
+
+.hourly-data,.daily-data{
+    width: 150px;
+    height: 140px;
+    color: black;
+    font-size: small;
+    align-items: center;
+    background-color: gray;
+    border: 2px sloid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hourly-data img{
+    width: 55px;
+    height: 55px;
+}
+.daily-data img{
+    width: 55px;
+    height: 55px;
+}
+.hourly-forecast,.day-forecast{
+    display: flex;  
+    height: 22vh;
+    border: 2px solid black;
+    padding-top: 5%;
+    overflow: hidden;
+}

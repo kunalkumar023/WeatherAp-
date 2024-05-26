@@ -1,0 +1,38 @@
+.search{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 34%;
+    margin-top: 20px ;
+    width: 40%;
+    margin-left: 7%;
+}
+button{
+    display: none;
+}
+
+#city{
+    border-radius: 12px;
+    border:1px solid black;
+    padding: 3px;
+    padding-left: 25px;
+    background-color: transparent;
+
+
+}
+
+#searchImg{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: -22px;
+
+}
+
+#locationImg{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right:-22px ;
+}

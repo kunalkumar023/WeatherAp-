@@ -1,0 +1,12 @@
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    overflow:hidden;
+}
+
+#intro img{
+    border-radius: 50%;
+    padding: 10px;
+}

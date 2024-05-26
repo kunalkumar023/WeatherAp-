@@ -1,0 +1,16 @@
+.App{
+    /* border: 0px solid black; */
+    margin: 20px auto;
+    max-width: 1080px;
+    align-items: center;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: rgb(153, 146, 146);
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:200px ;
+}
